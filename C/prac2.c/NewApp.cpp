@@ -1,6 +1,7 @@
-#include<iostream>
-using namespace std;
-int main(){
-    cout<< "Hello worrld, I am cpp";
-    return 0;
+#include<stdio.h>
+int main()
+{
+
+printf("Hello worrld, I am cpp");
+
 }
