@@ -5,11 +5,11 @@ int main(){
     for (int i = 0; i < 3; i++)
 
     {
-        for (int j = 0; j <= i; j++)
+        for (int j = 0; j > i; j--)
         {
-          printf("_");
+          printf(" ");
         }
-    for (int k = 3; k >i ; k--)
+    for (int k = 3; k > i ; k--)
         {
             printf("*");
         }
